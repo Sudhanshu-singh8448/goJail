@@ -1,0 +1,18 @@
+services:
+  goboxd:
+    platform: linux/amd64
+    build:
+      context: .
+      args:
+        VERSION: "0.1.0"
+        COMMIT: "local"
+    privileged: true
+    restart: always
+    command: /app/goboxd
+    environment:
+      - CONFIG_DIR=/app/config
+      - DEBUG=false
+    volumes:
+      - ./config:/app/config
+    ports:
+      - "8000:8000"
