@@ -1,0 +1,12 @@
+server:
+  port: 8000
+  max_source_bytes: 262144          # 256 KiB
+  max_tests: 50
+  max_concurrent_jobs: 0            # 0 = runtime.NumCPU()
+  max_stdin_bytes: 1048576          # 1 MiB per test stdin
+  max_expected_bytes: 1048576       # 1 MiB per test expected_stdout
+  max_stdout_capture_bytes: 1048576 # 1 MiB stdout capture cap
+  max_stderr_capture_bytes: 262144  # 256 KiB stderr capture cap
+  jail_dir: /tmp/goboxd_jails
+  nsjail_path: /usr/bin/nsjail
+  orphan_sweep_minutes: 5

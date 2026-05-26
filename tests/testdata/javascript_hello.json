@@ -1,0 +1,5 @@
+{
+  "language": "javascript",
+  "source": "console.log('hello')",
+  "tests": [{"stdin": "", "expected_stdout": "hello\n"}]
+}

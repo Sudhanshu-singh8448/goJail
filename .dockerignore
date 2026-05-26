@@ -1,0 +1,68 @@
+# Binaries
+nsjail-server
+*.exe
+*.out
+
+# Go
+/vendor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+docker-compose*.yaml
+.dockerignore
+
+# Documentation
+docs/
+
+# Tests
+*_test.go
+
+# CI/CD
+.circleci/
+.travis.yml
+cloudbuild.yaml
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Kubernetes
+k8s/
+k8s.txt
+
+# Build artifacts
+*.tar.gz
+*.zip
+
+# Nsjail specific
+nsjail/
+*.nsjail
+
+# Development files
+Makefile
+.env
+.env.*
+*.example
+
+# Logs
+logs/
+
+# Cache
+.cache/
+*.cache
+
+# Git
+.git
+.gitignore
+.github

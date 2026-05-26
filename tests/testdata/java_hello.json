@@ -1,0 +1,7 @@
+{
+  "language": "java",
+  "source": "public class Main { public static void main(String[] args) { System.out.print(\"hi\"); } }",
+  "source_filename": "Main.java",
+  "artifact_filename": "Main",
+  "tests": [{"stdin": "", "expected_stdout": "hi"}]
+}

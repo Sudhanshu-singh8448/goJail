@@ -1,0 +1,5 @@
+{
+  "language": "cpp",
+  "source": "#include <iostream>\nint main(){std::cout<<\"hi\";return 0;}",
+  "tests": [{"stdin": "", "expected_stdout": "hi"}]
+}
